@@ -20,6 +20,9 @@ public class ContactsPage {
 	public WebElement getToCreateLookUpImageClick() {
 		return ToCreateLookUpImageClick;
 	}
+	
+	
+	
 
 
 
