@@ -41,7 +41,13 @@ public class CreateOrganisationpage {
 				return typeDropDowntextField;
 			}
 		
-		
+			@FindBy (id="dtlview_Phone")
+			private WebElement OrgPhoNumbAfterSavetext;
+			
+			
+			public WebElement getOrgPhoNumbAfterSavetext() {
+				return OrgPhoNumbAfterSavetext;
+			}
 		
 		
 			
