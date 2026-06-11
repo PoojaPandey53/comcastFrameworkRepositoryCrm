@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="contactTest.ToCreateContactTest">
+        <methods>
+          <include name="afterMethodConfig"/>
+          <include name="beforeSuiteConfigur"/>
+          <include name="beforeClassconfig"/>
+          <include name="afterSuiteConfig"/>
+          <include name="toCreateContact_01"/>
+          <include name="beforeMethodConfig"/>
+          <include name="afterClassconfig"/>
+        </methods>
+      </class> <!-- contactTest.ToCreateContactTest -->
+      <class name="contactTest.ToCreateContactWithOrgTest">
+        <methods>
+          <include name="toCreateContactWithOrgTest"/>
+          <include name="beforeSuiteConfigur"/>
+          <include name="afterMethodConfig"/>
+          <include name="beforeClassconfig"/>
+          <include name="afterSuiteConfig"/>
+          <include name="beforeMethodConfig"/>
+          <include name="afterClassconfig"/>
+        </methods>
+      </class> <!-- contactTest.ToCreateContactWithOrgTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="organisationTest.ToCreateOrganisationWithIndustryTest">
+        <methods>
+          <include name="beforeSuiteConfigur"/>
+          <include name="afterMethodConfig"/>
+          <include name="beforeClassconfig"/>
+          <include name="afterSuiteConfig"/>
+          <include name="ToCreateOrganisationWithIndustryTest_02"/>
+          <include name="beforeMethodConfig"/>
+          <include name="afterClassconfig"/>
+        </methods>
+      </class> <!-- organisationTest.ToCreateOrganisationWithIndustryTest -->
+      <class name="organisationTest.ToCreateOrgwithTypeTest">
+        <methods>
+          <include name="beforeSuiteConfigur"/>
+          <include name="afterMethodConfig"/>
+          <include name="beforeClassconfig"/>
+          <include name="afterSuiteConfig"/>
+          <include name="beforeMethodConfig"/>
+          <include name="afterClassconfig"/>
+          <include name="toCreateOrgwithTypeTest"/>
+        </methods>
+      </class> <!-- organisationTest.ToCreateOrgwithTypeTest -->
+      <class name="organisationTest.ToCreateOrgTest">
+        <methods>
+          <include name="afterMethodConfig"/>
+          <include name="beforeSuiteConfigur"/>
+          <include name="beforeClassconfig"/>
+          <include name="afterSuiteConfig"/>
+          <include name="beforeMethodConfig"/>
+          <include name="toCreateOrgTest_01"/>
+          <include name="afterClassconfig"/>
+        </methods>
+      </class> <!-- organisationTest.ToCreateOrgTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
