@@ -44,13 +44,18 @@ public class CreateContactpage {
 			return amazonSelectedLink;
 		}
 		
-		public WebElement getSupport_end_dateTextField() {
+		public WebElement support_start_dateTextField() {
 			return support_start_dateTextField;	
 		}
 		@FindBy(name="support_start_date")
 		private WebElement support_start_dateTextField;
 		
+		@FindBy(name="support_end_date")
+		private WebElement support_end_dateTextField;
 		
+	public WebElement getSupport_end_dateTextField() {
+			return support_end_dateTextField;	
+		}
 		
 		
 		
